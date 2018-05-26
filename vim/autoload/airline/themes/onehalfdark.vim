@@ -21,7 +21,7 @@ let s:med_hi_g = '#5d677a'
 let s:med_hi_c = 243
 let s:med_lo_g = '#313640'
 let s:med_lo_c = 238
-let s:dark_g = '#282c34'
+let s:dark_g = '#181A1F'
 let s:dark_c = 236
 
 let s:green_g = '#98c379'
