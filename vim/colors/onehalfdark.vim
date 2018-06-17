@@ -30,7 +30,8 @@ let s:fg          = s:white
 let s:bg          = s:black
 
 let s:comment_fg  = { "gui": "#5c6370", "cterm": "241" }
-let s:gutter_bg   = { "gui": "#181A1F", "cterm": "236" }
+"let s:gutter_bg   = { "gui": "#181A1F", "cterm": "236" }
+let s:gutter_bg   = { "gui": "#313640", "cterm": "236" }
 let s:gutter_fg   = { "gui": "#919baa", "cterm": "247" }
 
 let s:cursor_line = { "gui": "#313640", "cterm": "237" }
@@ -109,7 +110,7 @@ call s:h("Directory", s:blue, "", "")
 call s:h("VertSplit", s:vertsplit, s:vertsplit, "")
 call s:h("Folded", s:fg, "", "")
 call s:h("FoldColumn", s:fg, "", "")
-call s:h("SignColumn", s:fg, "", "")
+call s:h("SignColumn", s:fg, s:gutter_bg, "")
 
 call s:h("MatchParen", s:blue, "", "underline")
 call s:h("SpecialKey", s:fg, "", "")
