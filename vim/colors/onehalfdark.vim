@@ -159,7 +159,7 @@ call s:h("Debug", s:fg, "", "")
 call s:h("Underlined", s:fg, "", "")
 call s:h("Ignore", s:fg, "", "")
 call s:h("Error", s:red, s:gutter_bg, "")
-call s:h("Todo", s:purple, "", "")
+call s:h("Todo", s:purple, s:gutter_bg, "")
 " }
 
 
